@@ -39,9 +39,9 @@ function WPTime_preloader_plugin_row_meta( $links, $file ) {
     
     $new_links = array(
             '<a href="http://wp-plugins.in/the-preloader" target="_blank">Explanation of Use</a>',
-            '<a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=24967&tid1=preloader_plugin_m&url=35248" target="_blank">Elegant Themes</a>',
-            '<a href="https://www.bluehost.com/track/wptime/preloader-plugin-m" target="_blank">Bluehost</a>',
-            '<a href="http://wp-plugins.in" target="_blank">More Plugins</a>'
+            '<a href="https://profiles.wordpress.org/alobaidi" target="_blank">Original Author</a>',
+            '<a href="https://soapboxraceworld.ml/" target="_blank">Soapbox Race World</a>',
+            //'<a href="http://wp-plugins.in" target="_blank">More Plugins</a>'
           );
     
     $links = array_merge( $links, $new_links );
