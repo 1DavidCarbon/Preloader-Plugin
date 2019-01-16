@@ -77,7 +77,7 @@
                                 <th scope="row"><label for="wptpreloader_image">Preloader Image</label></th>
                                 <td>
                                     <input class="regular-text" name="wptpreloader_image" type="text" id="wptpreloader_image" value="<?php echo esc_attr( $preloader_image ); ?>">
-                                    <p class="description"><a href="https://icons8.com/preloaders/" target="_blank">Get FREE Preloader Image</a>.</p>
+                                    <p class="description">Enter preloader image link.<a href="https://icons8.com/preloaders/" target="_blank">Get FREE Preloader Image</a>.</p>
                                 </td>
                             </tr>
 
@@ -85,7 +85,7 @@
                                 <th scope="row"><label for="wpt_thepreloader_image_size_get_width">Preloader Image Width</label></th>
                                 <td>
                                     <input class="small-text" name="wpt_thepreloader_image_size_get_width" type="text" id="wpt_thepreloader_image_size_get_width" value="<?php echo esc_attr( $image_width ); ?>">
-                                    <p class="description">Enter image width size.</p>
+                                    <p class="description">Enter preloader image width size, digit only. Ex: "256" (Pixel)</p>
                                    
                                 </td>
 
@@ -93,7 +93,7 @@
                                 <th scope="row"><label for="wpt_thepreloader_image_size_get_height">Preloader Image Height</label></th>
                                 <td>
                                     <input class="small-text" name="wpt_thepreloader_image_size_get_height" type="text" id="wpt_thepreloader_image_size_get_height" value="<?php echo esc_attr( $image_height ); ?>">
-                                    <p class="description">Enter image height size.</p>
+                                    <p class="description">Enter preloader image height size, digit only. Ex: "256" (Pixel)</p>
                                   
                                 </td>
                             </tr>

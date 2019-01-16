@@ -1,30 +1,33 @@
 <?php
-/*
-Plugin Name: Preloader Classic
-Plugin URI: https://davidcarbon.ml/preloader-classic
-Description: Add preloader to your website easily, responsive and retina, full customization, compatible with all major browsers.
-Version: 1.0.9
-Author: DavidCarbon
-Author URI: https://davidcarbon.ml
-License: GPLv3 or later
-*/
-
-/*  Copyright 2019 DavidCarbon (email: wp-plugins@davidcarbon.ml)
-
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as
-    published by the Free Software Foundation.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
-
+/**
+ * Preloader Classic.
+ *
+ *
+ * @copyright Copyright (C) 2014-2019, DavidCarbon - wp-plugins@davidcarbon.ml
+ * @license   http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License, version 3 or higher
+ *
+ * @wordpress-plugin
+ * Plugin Name: Preloader Classic
+ * Version:     1.0.9
+ * Plugin URI:  https://davidcarbon.ml/preloader-classic
+ * Description: Add-on preloader to your website real easily, responsive and retina, full customization, compatible with all major browsers.
+ * Author:      DavidCarbon
+ * Author URI:  https://davidcarbon.ml
+ * License:     GPL v3
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
