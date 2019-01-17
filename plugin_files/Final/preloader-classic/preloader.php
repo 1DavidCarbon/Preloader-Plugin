@@ -40,8 +40,7 @@ function WPTime_preloader_plugin_row_meta( $links, $file ) {
     $new_links = array(
             '<a href="http://wp-plugins.in/the-preloader" target="_blank">Explanation of Use</a>',
             '<a href="https://profiles.wordpress.org/alobaidi" target="_blank">Original Author</a>',
-            '<a href="https://soapboxraceworld.ml/" target="_blank">Soapbox Race World</a>',
-            //'<a href="http://wp-plugins.in" target="_blank">More Plugins</a>'
+            '<a href="http://davidcarbon.ml/wordpress/preloader-classic/changelog" target="_blank">Changelog</a>'
           );
     
     $links = array_merge( $links, $new_links );
