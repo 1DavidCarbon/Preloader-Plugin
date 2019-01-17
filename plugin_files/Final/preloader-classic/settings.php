@@ -172,19 +172,5 @@
                     
                     <p class="submit"><input id="submit" class="button button-primary" type="submit" name="submit" value="Save Changes"></p>
                 </form>
-                
-                <div class="tool-box">
-                    <h3 class="title">Recommended Links</h3>
-                    <ul>
-                        <li>Get collection of 88 Premium WordPress themes with a lot of features and premium support for $80 only! <a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=24967&tid1=preloader_plugin_st&url=35248" target="_blank">Get it now</a>.</li>
-                        <li>Best SSD Web Hosting for $3.95/Monthly only! <a href="https://www.siteground.com/go/preloader_plugin_st" target="_blank">Get it now</a>.</li>
-                    </ul>
-                    <p><strong>See also:</strong></p>
-                    <p><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=24967&tid1=preloader_plugin_sb&url=35248" target="_blank"><img style="max-width: 100% !important;" src="<?php echo plugins_url( '/banner/et.jpg', __FILE__ ); ?>"></a></p>
-                    <p><a href="https://www.bluehost.com/track/wptime/preloader-plugin-s" target="_blank"><img style="max-width: 100% !important;" src="<?php echo plugins_url( '/banner/bh.png', __FILE__ ); ?>"></a></p>
-                    <p style="color: #888 !important; font-size: 12px !important;">Why do you see <strong>"Recommended Links"</strong> and banners in this plugin?<br>We offer you free professional plugins for free (e.g. The Preloader plugin), so you'll see <strong>"Recommended Links"</strong> and banners, which is the only support source.</p>
-                </div>
-                
-            </div>
         <?php
     } // settings page function
