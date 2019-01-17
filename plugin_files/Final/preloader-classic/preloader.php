@@ -150,6 +150,17 @@ function WPTime_plugin_preloader_css(){
     $preloader_image = plugins_url( '/images/preloader.GIF', __FILE__ );
   }
 
+  if( get_option('wpt_thepreloader_image_size_get_width') ){
+    $image_width = get_option('wpt_thepreloader_image_size_get_width');
+  }else{
+    $image_width = apply_filters('wpt_thepreloader_image_size_get_height', '64');
+  }
+  if( get_option('wpt_thepreloader_image_size_get_height') ){
+    $image_height = get_option('wpt_thepreloader_image_size_get_height');
+  }else{
+    $image_height = apply_filters('wpt_thepreloader_image_size_get_height', '64');
+  }
+  
   if( function_exists('is_woocommerce') ){
     $woocommerce = is_woocommerce();
     $checkout = is_checkout();
@@ -176,8 +187,7 @@ function WPTime_plugin_preloader_css(){
     or get_option( 'wptpreloader_screen' ) == '404error' and is_404()
     or get_option( 'wptpreloader_screen' ) == 'woocommerce' and ( $woocommerce === true or $checkout === true or $cart === true or $account === true or $view === true)
   ){
-    $image_width = get_option('wpt_thepreloader_image_size_get_width');
-    $image_height = get_option('wpt_thepreloader_image_size_get_height');
+
   ?>
       <style type="text/css">
       #wptime-plugin-preloader{
