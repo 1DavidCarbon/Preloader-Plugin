@@ -85,7 +85,7 @@
                                 <th scope="row"><label for="wpt_thepreloader_image_size_get_width">Preloader Image Width</label></th>
                                 <td>
                                     <input class="small-text" name="wpt_thepreloader_image_size_get_width" type="text" id="wpt_thepreloader_image_size_get_width" value="<?php echo esc_attr( $image_width ); ?>">
-                                    <p class="description">Enter preloader image width size, digit only. Ex: "256" (Pixel)</p>
+                                    <p class="description">Enter preloader image width size, digit only. Ex: '256' (Pixel)</p>
                                    
                                 </td>
 
@@ -93,7 +93,7 @@
                                 <th scope="row"><label for="wpt_thepreloader_image_size_get_height">Preloader Image Height</label></th>
                                 <td>
                                     <input class="small-text" name="wpt_thepreloader_image_size_get_height" type="text" id="wpt_thepreloader_image_size_get_height" value="<?php echo esc_attr( $image_height ); ?>">
-                                    <p class="description">Enter preloader image height size, digit only. Ex: "256" (Pixel)</p>
+                                    <p class="description">Enter preloader image height size, digit only. Ex: '256' (Pixel)</p>
                                   
                                 </td>
                             </tr>
